@@ -7,7 +7,13 @@ function add(e){
 
 function eqal(){
   var addInp = document.getElementById('inp');
-  addInp.value = eval(addInp.value)
+  var shows = eval(addInp.value)
+  if( shows === undefined){
+    alert("Error")
+  }else{
+    
+    addInp.value = shows
+  }
 }
 function clear(){
   var addInp = document.getElementById('inp');
