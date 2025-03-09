@@ -70,3 +70,17 @@ button {
     font-family: sans-serif;
     font-weight: 600;
 }
+
+@media screen and (max-width: 757px) {
+    .main {
+        width: 80%;
+        margin: 0 auto;
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 38%, rgba(196, 196, 222, 1) 100%);
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border: 4px groove;
+       margin-top: 50px;
+    }
+  }
