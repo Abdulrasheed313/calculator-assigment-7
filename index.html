@@ -17,7 +17,7 @@
 
  <div class="main">
     <div>
-        <input readonly type="text" id="inp">
+        <input readonly  type="text" id="inp">
        </div>
   <div class="name">
    <h2>Calculator</h2> 
@@ -26,8 +26,10 @@
    <div class="clear">
     <button class="off" onclick="off()" >Off</button>
     <button onclick="clearall()">Ac </button>
-    <button onclick="clear()">C</button>
-    <button onclick="add('+')">+ </button>
+
+    <button onclick="clears()">C</button>
+
+    <button onclick="add('+')" ondblclick="myFunction()">+ </button>
    </div>
 
    <div class="clear">
